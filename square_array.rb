@@ -4,7 +4,7 @@ def square_array(numbers)
   numbers.each do |number|
     num = number
     squarednum = num * number
-    counter += 1
+    counter + 1
     newarray.push(squarednum)
   end
   return newarray
