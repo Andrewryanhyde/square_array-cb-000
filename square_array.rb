@@ -1,10 +1,10 @@
-def square_array(array)
+def square_array(numbers)
   conter = 0
   newarray = []
-  array.each do |number|
+  numbers.each do |number|
     num = number * number
     counter += 1
-    array.push(num)
+    newarray.push(num)
     return newarray
   end
 end
