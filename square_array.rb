@@ -5,5 +5,6 @@ def square_array(array)
     num = number * number
     counter += 1
     array.push(num)
+    return newarray
   end
 end
